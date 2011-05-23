@@ -7,12 +7,14 @@
 //
 
 #import "RootViewController.h"
+#import "DetailViewController.h"
 
 @implementation RootViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.title = @"Root";
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -51,7 +53,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 0;
+    return 2;
 }
 
 // Customize the appearance of table view cells.
@@ -65,6 +67,8 @@
     }
 
     // Configure the cell.
+    cell.textLabel.text = @"see Details";
+    cell.accessoryType  = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
 
@@ -111,13 +115,13 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    /*
-    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+    
+    DetailViewController *detailViewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:nil];
     // ...
     // Pass the selected object to the new view controller.
     [self.navigationController pushViewController:detailViewController animated:YES];
     [detailViewController release];
-	*/
+	
 }
 
 - (void)didReceiveMemoryWarning

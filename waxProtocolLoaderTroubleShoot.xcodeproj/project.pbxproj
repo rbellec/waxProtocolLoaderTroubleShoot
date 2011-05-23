@@ -25,6 +25,8 @@
 		64CA0C7C138A68B20096DFEE /* init.lua in Resources */ = {isa = PBXBuildFile; fileRef = 64CA0C7B138A68B20096DFEE /* init.lua */; };
 		64CA0C7E138A6A0D0096DFEE /* navigationDelegate.lua in Resources */ = {isa = PBXBuildFile; fileRef = 64CA0C7D138A6A0D0096DFEE /* navigationDelegate.lua */; };
 		64CA0C84138A72DA0096DFEE /* wax.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CA0C83138A72DA0096DFEE /* wax.framework */; };
+		64CA0C8F138A78400096DFEE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CA0C8D138A78400096DFEE /* DetailViewController.m */; };
+		64CA0C90138A78400096DFEE /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64CA0C8E138A78400096DFEE /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,9 @@
 		64CA0C7D138A6A0D0096DFEE /* navigationDelegate.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = navigationDelegate.lua; sourceTree = "<group>"; };
 		64CA0C80138A6B450096DFEE /* ProtocolLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolLoader.h; sourceTree = "<group>"; };
 		64CA0C83138A72DA0096DFEE /* wax.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = wax.framework; sourceTree = "<group>"; };
+		64CA0C8C138A78400096DFEE /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		64CA0C8D138A78400096DFEE /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		64CA0C8E138A78400096DFEE /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +136,9 @@
 				64CA0C48138A67BC0096DFEE /* RootViewController.m */,
 				64CA0C4A138A67BC0096DFEE /* RootViewController.xib */,
 				64CA0C39138A67BC0096DFEE /* Supporting Files */,
+				64CA0C8C138A78400096DFEE /* DetailViewController.h */,
+				64CA0C8D138A78400096DFEE /* DetailViewController.m */,
+				64CA0C8E138A78400096DFEE /* DetailViewController.xib */,
 			);
 			path = waxProtocolLoaderTroubleShoot;
 			sourceTree = "<group>";
@@ -255,6 +263,7 @@
 				64CA0C4C138A67BC0096DFEE /* RootViewController.xib in Resources */,
 				64CA0C7C138A68B20096DFEE /* init.lua in Resources */,
 				64CA0C7E138A6A0D0096DFEE /* navigationDelegate.lua in Resources */,
+				64CA0C90138A78400096DFEE /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +302,7 @@
 				64CA0C40138A67BC0096DFEE /* main.m in Sources */,
 				64CA0C43138A67BC0096DFEE /* waxProtocolLoaderTroubleShootAppDelegate.m in Sources */,
 				64CA0C49138A67BC0096DFEE /* RootViewController.m in Sources */,
+				64CA0C8F138A78400096DFEE /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
