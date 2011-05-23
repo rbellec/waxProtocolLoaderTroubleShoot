@@ -27,6 +27,7 @@
 		64CA0C84138A72DA0096DFEE /* wax.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CA0C83138A72DA0096DFEE /* wax.framework */; };
 		64CA0C8F138A78400096DFEE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CA0C8D138A78400096DFEE /* DetailViewController.m */; };
 		64CA0C90138A78400096DFEE /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64CA0C8E138A78400096DFEE /* DetailViewController.xib */; };
+		64CA0C93138A79D70096DFEE /* NavigationDelegateBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CA0C92138A79D70096DFEE /* NavigationDelegateBridge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		64CA0C8C138A78400096DFEE /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		64CA0C8D138A78400096DFEE /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		64CA0C8E138A78400096DFEE /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		64CA0C91138A79D70096DFEE /* NavigationDelegateBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationDelegateBridge.h; sourceTree = "<group>"; };
+		64CA0C92138A79D70096DFEE /* NavigationDelegateBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationDelegateBridge.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +190,8 @@
 			isa = PBXGroup;
 			children = (
 				64CA0C80138A6B450096DFEE /* ProtocolLoader.h */,
+				64CA0C91138A79D70096DFEE /* NavigationDelegateBridge.h */,
+				64CA0C92138A79D70096DFEE /* NavigationDelegateBridge.m */,
 			);
 			name = waxSupportClasses;
 			path = ..;
@@ -304,6 +309,7 @@
 				64CA0C43138A67BC0096DFEE /* waxProtocolLoaderTroubleShootAppDelegate.m in Sources */,
 				64CA0C49138A67BC0096DFEE /* RootViewController.m in Sources */,
 				64CA0C8F138A78400096DFEE /* DetailViewController.m in Sources */,
+				64CA0C93138A79D70096DFEE /* NavigationDelegateBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

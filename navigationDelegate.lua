@@ -1,5 +1,5 @@
 
-waxClass{"navigationDelegate", NSObject, protocols={"UITableViewDataSource", "UITableViewDelegate", "UINavigationControllerDelegate"}}
+waxClass{"NavigationDelegate", NSObject, protocols={"UITableViewDataSource", "UITableViewDelegate", "UINavigationControllerDelegate"}}
 
 function init(self)
     self.super:init()
