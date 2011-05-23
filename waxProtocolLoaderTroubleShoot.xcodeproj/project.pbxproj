@@ -39,20 +39,20 @@
 		64CA0C32138A67BC0096DFEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		64CA0C34138A67BC0096DFEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		64CA0C36138A67BC0096DFEE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		64CA0C3A138A67BC0096DFEE /* waxProtocolLoaderTroubleShoot-Info.plist */ = {isa = PBXFileReference; path = "waxProtocolLoaderTroubleShoot-Info.plist"; sourceTree = "<group>"; };
+		64CA0C3A138A67BC0096DFEE /* waxProtocolLoaderTroubleShoot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "waxProtocolLoaderTroubleShoot-Info.plist"; sourceTree = "<group>"; };
 		64CA0C3C138A67BC0096DFEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		64CA0C3E138A67BC0096DFEE /* waxProtocolLoaderTroubleShoot-Prefix.pch */ = {isa = PBXFileReference; path = "waxProtocolLoaderTroubleShoot-Prefix.pch"; sourceTree = "<group>"; };
+		64CA0C3E138A67BC0096DFEE /* waxProtocolLoaderTroubleShoot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "waxProtocolLoaderTroubleShoot-Prefix.pch"; sourceTree = "<group>"; };
 		64CA0C3F138A67BC0096DFEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		64CA0C41138A67BC0096DFEE /* waxProtocolLoaderTroubleShootAppDelegate.h */ = {isa = PBXFileReference; path = waxProtocolLoaderTroubleShootAppDelegate.h; sourceTree = "<group>"; };
+		64CA0C41138A67BC0096DFEE /* waxProtocolLoaderTroubleShootAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = waxProtocolLoaderTroubleShootAppDelegate.h; sourceTree = "<group>"; };
 		64CA0C42138A67BC0096DFEE /* waxProtocolLoaderTroubleShootAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = waxProtocolLoaderTroubleShootAppDelegate.m; sourceTree = "<group>"; };
 		64CA0C45138A67BC0096DFEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		64CA0C47138A67BC0096DFEE /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		64CA0C47138A67BC0096DFEE /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		64CA0C48138A67BC0096DFEE /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		64CA0C4B138A67BC0096DFEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 		64CA0C52138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = waxProtocolLoaderTroubleShootTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		64CA0C5A138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests-Info.plist */ = {isa = PBXFileReference; path = "waxProtocolLoaderTroubleShootTests-Info.plist"; sourceTree = "<group>"; };
+		64CA0C5A138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "waxProtocolLoaderTroubleShootTests-Info.plist"; sourceTree = "<group>"; };
 		64CA0C5C138A67BC0096DFEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		64CA0C5E138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests-Prefix.pch */ = {isa = PBXFileReference; path = "waxProtocolLoaderTroubleShootTests-Prefix.pch"; sourceTree = "<group>"; };
+		64CA0C5E138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "waxProtocolLoaderTroubleShootTests-Prefix.pch"; sourceTree = "<group>"; };
 		64CA0C5F138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = waxProtocolLoaderTroubleShootTests.h; sourceTree = "<group>"; };
 		64CA0C61138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = waxProtocolLoaderTroubleShootTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -361,6 +361,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "waxProtocolLoaderTroubleShoot/waxProtocolLoaderTroubleShoot-Prefix.pch";
 				INFOPLIST_FILE = "waxProtocolLoaderTroubleShoot/waxProtocolLoaderTroubleShoot-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -374,6 +375,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "waxProtocolLoaderTroubleShoot/waxProtocolLoaderTroubleShoot-Prefix.pch";
 				INFOPLIST_FILE = "waxProtocolLoaderTroubleShoot/waxProtocolLoaderTroubleShoot-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -443,6 +445,7 @@
 				64CA0C67138A67BC0096DFEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64CA0C68138A67BC0096DFEE /* Build configuration list for PBXNativeTarget "waxProtocolLoaderTroubleShootTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +454,7 @@
 				64CA0C6A138A67BC0096DFEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
