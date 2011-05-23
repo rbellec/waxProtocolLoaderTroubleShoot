@@ -97,7 +97,6 @@
 		64CA0C23138A67BC0096DFEE = {
 			isa = PBXGroup;
 			children = (
-				64CA0C7F138A6B260096DFEE /* waxSupportClasses */,
 				64CA0C78138A68300096DFEE /* scripts */,
 				64CA0C38138A67BC0096DFEE /* waxProtocolLoaderTroubleShoot */,
 				64CA0C58138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests */,
@@ -129,6 +128,7 @@
 		64CA0C38138A67BC0096DFEE /* waxProtocolLoaderTroubleShoot */ = {
 			isa = PBXGroup;
 			children = (
+				64CA0C7F138A6B260096DFEE /* waxSupportClasses */,
 				64CA0C41138A67BC0096DFEE /* waxProtocolLoaderTroubleShootAppDelegate.h */,
 				64CA0C42138A67BC0096DFEE /* waxProtocolLoaderTroubleShootAppDelegate.m */,
 				64CA0C44138A67BC0096DFEE /* MainWindow.xib */,
@@ -189,6 +189,7 @@
 				64CA0C80138A6B450096DFEE /* ProtocolLoader.h */,
 			);
 			name = waxSupportClasses;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
