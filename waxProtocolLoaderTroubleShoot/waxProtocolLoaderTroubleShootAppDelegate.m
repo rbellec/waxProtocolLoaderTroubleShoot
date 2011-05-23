@@ -7,6 +7,7 @@
 //
 
 #import "waxProtocolLoaderTroubleShootAppDelegate.h"
+#import "wax/wax.h"
 
 @implementation waxProtocolLoaderTroubleShootAppDelegate
 
@@ -17,7 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    // Starting Lua famework.
+    wax_start("init.lua", nil);
+    
     // Add the navigation controller's view to the window and display.
     self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
