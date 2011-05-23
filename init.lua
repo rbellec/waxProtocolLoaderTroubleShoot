@@ -7,5 +7,6 @@ local sharedApplication = UIApplication:sharedApplication()
 local appDelegate       = sharedApplication:delegate()
 
 -- Setting NavigationDelegate 
-appDelegate:navigationController():setDelegate( NavigationDelegateBridge:init() )
+-- appDelegate:navigationController():setDelegate( NavigationDelegateBridge:init() )
 
+appDelegate:navigationController():setDelegate( NavigationDelegate:init() )
