@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64CA0C33138A67BC0096DFEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CA0C32138A67BC0096DFEE /* UIKit.framework */; };
+		64CA0C35138A67BC0096DFEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CA0C34138A67BC0096DFEE /* Foundation.framework */; };
+		64CA0C37138A67BC0096DFEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CA0C36138A67BC0096DFEE /* CoreGraphics.framework */; };
+		64CA0C3D138A67BC0096DFEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64CA0C3B138A67BC0096DFEE /* InfoPlist.strings */; };
+		64CA0C40138A67BC0096DFEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CA0C3F138A67BC0096DFEE /* main.m */; };
+		64CA0C43138A67BC0096DFEE /* waxProtocolLoaderTroubleShootAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CA0C42138A67BC0096DFEE /* waxProtocolLoaderTroubleShootAppDelegate.m */; };
+		64CA0C46138A67BC0096DFEE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64CA0C44138A67BC0096DFEE /* MainWindow.xib */; };
+		64CA0C49138A67BC0096DFEE /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CA0C48138A67BC0096DFEE /* RootViewController.m */; };
+		64CA0C4C138A67BC0096DFEE /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64CA0C4A138A67BC0096DFEE /* RootViewController.xib */; };
+		64CA0C53138A67BC0096DFEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CA0C32138A67BC0096DFEE /* UIKit.framework */; };
+		64CA0C54138A67BC0096DFEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CA0C34138A67BC0096DFEE /* Foundation.framework */; };
+		64CA0C55138A67BC0096DFEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CA0C36138A67BC0096DFEE /* CoreGraphics.framework */; };
+		64CA0C5D138A67BC0096DFEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64CA0C5B138A67BC0096DFEE /* InfoPlist.strings */; };
+		64CA0C60138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 64CA0C5F138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests.h */; };
+		64CA0C62138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CA0C61138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64CA0C56138A67BC0096DFEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64CA0C25138A67BC0096DFEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64CA0C2D138A67BC0096DFEE;
+			remoteInfo = waxProtocolLoaderTroubleShoot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64CA0C2E138A67BC0096DFEE /* waxProtocolLoaderTroubleShoot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = waxProtocolLoaderTroubleShoot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64CA0C32138A67BC0096DFEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64CA0C34138A67BC0096DFEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64CA0C36138A67BC0096DFEE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64CA0C3A138A67BC0096DFEE /* waxProtocolLoaderTroubleShoot-Info.plist */ = {isa = PBXFileReference; path = "waxProtocolLoaderTroubleShoot-Info.plist"; sourceTree = "<group>"; };
+		64CA0C3C138A67BC0096DFEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64CA0C3E138A67BC0096DFEE /* waxProtocolLoaderTroubleShoot-Prefix.pch */ = {isa = PBXFileReference; path = "waxProtocolLoaderTroubleShoot-Prefix.pch"; sourceTree = "<group>"; };
+		64CA0C3F138A67BC0096DFEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64CA0C41138A67BC0096DFEE /* waxProtocolLoaderTroubleShootAppDelegate.h */ = {isa = PBXFileReference; path = waxProtocolLoaderTroubleShootAppDelegate.h; sourceTree = "<group>"; };
+		64CA0C42138A67BC0096DFEE /* waxProtocolLoaderTroubleShootAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = waxProtocolLoaderTroubleShootAppDelegate.m; sourceTree = "<group>"; };
+		64CA0C45138A67BC0096DFEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		64CA0C47138A67BC0096DFEE /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		64CA0C48138A67BC0096DFEE /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		64CA0C4B138A67BC0096DFEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		64CA0C52138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = waxProtocolLoaderTroubleShootTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64CA0C5A138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests-Info.plist */ = {isa = PBXFileReference; path = "waxProtocolLoaderTroubleShootTests-Info.plist"; sourceTree = "<group>"; };
+		64CA0C5C138A67BC0096DFEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64CA0C5E138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests-Prefix.pch */ = {isa = PBXFileReference; path = "waxProtocolLoaderTroubleShootTests-Prefix.pch"; sourceTree = "<group>"; };
+		64CA0C5F138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = waxProtocolLoaderTroubleShootTests.h; sourceTree = "<group>"; };
+		64CA0C61138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = waxProtocolLoaderTroubleShootTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64CA0C2B138A67BC0096DFEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CA0C33138A67BC0096DFEE /* UIKit.framework in Frameworks */,
+				64CA0C35138A67BC0096DFEE /* Foundation.framework in Frameworks */,
+				64CA0C37138A67BC0096DFEE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64CA0C4E138A67BC0096DFEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CA0C53138A67BC0096DFEE /* UIKit.framework in Frameworks */,
+				64CA0C54138A67BC0096DFEE /* Foundation.framework in Frameworks */,
+				64CA0C55138A67BC0096DFEE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64CA0C23138A67BC0096DFEE = {
+			isa = PBXGroup;
+			children = (
+				64CA0C38138A67BC0096DFEE /* waxProtocolLoaderTroubleShoot */,
+				64CA0C58138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests */,
+				64CA0C31138A67BC0096DFEE /* Frameworks */,
+				64CA0C2F138A67BC0096DFEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64CA0C2F138A67BC0096DFEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64CA0C2E138A67BC0096DFEE /* waxProtocolLoaderTroubleShoot.app */,
+				64CA0C52138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64CA0C31138A67BC0096DFEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64CA0C32138A67BC0096DFEE /* UIKit.framework */,
+				64CA0C34138A67BC0096DFEE /* Foundation.framework */,
+				64CA0C36138A67BC0096DFEE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64CA0C38138A67BC0096DFEE /* waxProtocolLoaderTroubleShoot */ = {
+			isa = PBXGroup;
+			children = (
+				64CA0C41138A67BC0096DFEE /* waxProtocolLoaderTroubleShootAppDelegate.h */,
+				64CA0C42138A67BC0096DFEE /* waxProtocolLoaderTroubleShootAppDelegate.m */,
+				64CA0C44138A67BC0096DFEE /* MainWindow.xib */,
+				64CA0C47138A67BC0096DFEE /* RootViewController.h */,
+				64CA0C48138A67BC0096DFEE /* RootViewController.m */,
+				64CA0C4A138A67BC0096DFEE /* RootViewController.xib */,
+				64CA0C39138A67BC0096DFEE /* Supporting Files */,
+			);
+			path = waxProtocolLoaderTroubleShoot;
+			sourceTree = "<group>";
+		};
+		64CA0C39138A67BC0096DFEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64CA0C3A138A67BC0096DFEE /* waxProtocolLoaderTroubleShoot-Info.plist */,
+				64CA0C3B138A67BC0096DFEE /* InfoPlist.strings */,
+				64CA0C3E138A67BC0096DFEE /* waxProtocolLoaderTroubleShoot-Prefix.pch */,
+				64CA0C3F138A67BC0096DFEE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64CA0C58138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests */ = {
+			isa = PBXGroup;
+			children = (
+				64CA0C5F138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests.h */,
+				64CA0C61138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests.m */,
+				64CA0C59138A67BC0096DFEE /* Supporting Files */,
+			);
+			path = waxProtocolLoaderTroubleShootTests;
+			sourceTree = "<group>";
+		};
+		64CA0C59138A67BC0096DFEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64CA0C5A138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests-Info.plist */,
+				64CA0C5B138A67BC0096DFEE /* InfoPlist.strings */,
+				64CA0C5E138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64CA0C2D138A67BC0096DFEE /* waxProtocolLoaderTroubleShoot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64CA0C65138A67BC0096DFEE /* Build configuration list for PBXNativeTarget "waxProtocolLoaderTroubleShoot" */;
+			buildPhases = (
+				64CA0C2A138A67BC0096DFEE /* Sources */,
+				64CA0C2B138A67BC0096DFEE /* Frameworks */,
+				64CA0C2C138A67BC0096DFEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = waxProtocolLoaderTroubleShoot;
+			productName = waxProtocolLoaderTroubleShoot;
+			productReference = 64CA0C2E138A67BC0096DFEE /* waxProtocolLoaderTroubleShoot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64CA0C51138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64CA0C68138A67BC0096DFEE /* Build configuration list for PBXNativeTarget "waxProtocolLoaderTroubleShootTests" */;
+			buildPhases = (
+				64CA0C4D138A67BC0096DFEE /* Sources */,
+				64CA0C4E138A67BC0096DFEE /* Frameworks */,
+				64CA0C4F138A67BC0096DFEE /* Resources */,
+				64CA0C50138A67BC0096DFEE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64CA0C57138A67BC0096DFEE /* PBXTargetDependency */,
+			);
+			name = waxProtocolLoaderTroubleShootTests;
+			productName = waxProtocolLoaderTroubleShootTests;
+			productReference = 64CA0C52138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64CA0C25138A67BC0096DFEE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 64CA0C28138A67BC0096DFEE /* Build configuration list for PBXProject "waxProtocolLoaderTroubleShoot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64CA0C23138A67BC0096DFEE;
+			productRefGroup = 64CA0C2F138A67BC0096DFEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64CA0C2D138A67BC0096DFEE /* waxProtocolLoaderTroubleShoot */,
+				64CA0C51138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64CA0C2C138A67BC0096DFEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CA0C3D138A67BC0096DFEE /* InfoPlist.strings in Resources */,
+				64CA0C46138A67BC0096DFEE /* MainWindow.xib in Resources */,
+				64CA0C4C138A67BC0096DFEE /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64CA0C4F138A67BC0096DFEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CA0C5D138A67BC0096DFEE /* InfoPlist.strings in Resources */,
+				64CA0C60138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64CA0C50138A67BC0096DFEE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64CA0C2A138A67BC0096DFEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CA0C40138A67BC0096DFEE /* main.m in Sources */,
+				64CA0C43138A67BC0096DFEE /* waxProtocolLoaderTroubleShootAppDelegate.m in Sources */,
+				64CA0C49138A67BC0096DFEE /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64CA0C4D138A67BC0096DFEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CA0C62138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64CA0C57138A67BC0096DFEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64CA0C2D138A67BC0096DFEE /* waxProtocolLoaderTroubleShoot */;
+			targetProxy = 64CA0C56138A67BC0096DFEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64CA0C3B138A67BC0096DFEE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64CA0C3C138A67BC0096DFEE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64CA0C44138A67BC0096DFEE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64CA0C45138A67BC0096DFEE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		64CA0C4A138A67BC0096DFEE /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64CA0C4B138A67BC0096DFEE /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		64CA0C5B138A67BC0096DFEE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64CA0C5C138A67BC0096DFEE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64CA0C63138A67BC0096DFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64CA0C64138A67BC0096DFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		64CA0C66138A67BC0096DFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "waxProtocolLoaderTroubleShoot/waxProtocolLoaderTroubleShoot-Prefix.pch";
+				INFOPLIST_FILE = "waxProtocolLoaderTroubleShoot/waxProtocolLoaderTroubleShoot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64CA0C67138A67BC0096DFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "waxProtocolLoaderTroubleShoot/waxProtocolLoaderTroubleShoot-Prefix.pch";
+				INFOPLIST_FILE = "waxProtocolLoaderTroubleShoot/waxProtocolLoaderTroubleShoot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		64CA0C69138A67BC0096DFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/waxProtocolLoaderTroubleShoot.app/waxProtocolLoaderTroubleShoot";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "waxProtocolLoaderTroubleShootTests/waxProtocolLoaderTroubleShootTests-Prefix.pch";
+				INFOPLIST_FILE = "waxProtocolLoaderTroubleShootTests/waxProtocolLoaderTroubleShootTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		64CA0C6A138A67BC0096DFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/waxProtocolLoaderTroubleShoot.app/waxProtocolLoaderTroubleShoot";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "waxProtocolLoaderTroubleShootTests/waxProtocolLoaderTroubleShootTests-Prefix.pch";
+				INFOPLIST_FILE = "waxProtocolLoaderTroubleShootTests/waxProtocolLoaderTroubleShootTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64CA0C28138A67BC0096DFEE /* Build configuration list for PBXProject "waxProtocolLoaderTroubleShoot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CA0C63138A67BC0096DFEE /* Debug */,
+				64CA0C64138A67BC0096DFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64CA0C65138A67BC0096DFEE /* Build configuration list for PBXNativeTarget "waxProtocolLoaderTroubleShoot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CA0C66138A67BC0096DFEE /* Debug */,
+				64CA0C67138A67BC0096DFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64CA0C68138A67BC0096DFEE /* Build configuration list for PBXNativeTarget "waxProtocolLoaderTroubleShootTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CA0C69138A67BC0096DFEE /* Debug */,
+				64CA0C6A138A67BC0096DFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64CA0C25138A67BC0096DFEE /* Project object */;
+}
