@@ -1,0 +1,5 @@
+Example of troubles with wax:
+* using ProtocolLoader.h with wax (to add UINavigationControllerDelegate to a waxClass).
+* using host compiled wax framework.
+
+Others to come.
