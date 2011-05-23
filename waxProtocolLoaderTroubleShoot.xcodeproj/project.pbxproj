@@ -22,9 +22,9 @@
 		64CA0C5D138A67BC0096DFEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64CA0C5B138A67BC0096DFEE /* InfoPlist.strings */; };
 		64CA0C60138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 64CA0C5F138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests.h */; };
 		64CA0C62138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CA0C61138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests.m */; };
-		64CA0C7A138A68A00096DFEE /* wax.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CA0C79138A68A00096DFEE /* wax.framework */; };
 		64CA0C7C138A68B20096DFEE /* init.lua in Resources */ = {isa = PBXBuildFile; fileRef = 64CA0C7B138A68B20096DFEE /* init.lua */; };
 		64CA0C7E138A6A0D0096DFEE /* navigationDelegate.lua in Resources */ = {isa = PBXBuildFile; fileRef = 64CA0C7D138A6A0D0096DFEE /* navigationDelegate.lua */; };
+		64CA0C82138A6CFB0096DFEE /* wax.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CA0C81138A6CFB0096DFEE /* wax.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,10 +58,10 @@
 		64CA0C5E138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "waxProtocolLoaderTroubleShootTests-Prefix.pch"; sourceTree = "<group>"; };
 		64CA0C5F138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = waxProtocolLoaderTroubleShootTests.h; sourceTree = "<group>"; };
 		64CA0C61138A67BC0096DFEE /* waxProtocolLoaderTroubleShootTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = waxProtocolLoaderTroubleShootTests.m; sourceTree = "<group>"; };
-		64CA0C79138A68A00096DFEE /* wax.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = wax.framework; sourceTree = "<group>"; };
 		64CA0C7B138A68B20096DFEE /* init.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = init.lua; sourceTree = "<group>"; };
 		64CA0C7D138A6A0D0096DFEE /* navigationDelegate.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = navigationDelegate.lua; sourceTree = "<group>"; };
 		64CA0C80138A6B450096DFEE /* ProtocolLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolLoader.h; sourceTree = "<group>"; };
+		64CA0C81138A6CFB0096DFEE /* wax.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = wax.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 				64CA0C33138A67BC0096DFEE /* UIKit.framework in Frameworks */,
 				64CA0C35138A67BC0096DFEE /* Foundation.framework in Frameworks */,
 				64CA0C37138A67BC0096DFEE /* CoreGraphics.framework in Frameworks */,
-				64CA0C7A138A68A00096DFEE /* wax.framework in Frameworks */,
+				64CA0C82138A6CFB0096DFEE /* wax.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,7 +113,7 @@
 		64CA0C31138A67BC0096DFEE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				64CA0C79138A68A00096DFEE /* wax.framework */,
+				64CA0C81138A6CFB0096DFEE /* wax.framework */,
 				64CA0C32138A67BC0096DFEE /* UIKit.framework */,
 				64CA0C34138A67BC0096DFEE /* Foundation.framework */,
 				64CA0C36138A67BC0096DFEE /* CoreGraphics.framework */,
